@@ -1,0 +1,12 @@
+/* import styles from './styles/FirstTime.module.css'; */
+.container {
+	text-align: center;
+	padding: 20px;
+}
+
+.buttons button {
+	margin: 10px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
