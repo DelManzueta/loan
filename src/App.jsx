@@ -3,17 +3,22 @@ import Dashboard from './components/Dashboard';
 import LoanCalculator from './components/LoanCalculator';
 import LoginPage from './components/LoginPage';
 import SignupPage from './components/SignupPage';
+import HomePage from './components/HomePage'; // Import the HomePage component
 
 const App = () => {
 	return (
 		<Router>
 			<Routes>
 				<Route
+					path='/'
+					element={<HomePage />}
+				/>
+				<Route
 					path='/login'
 					element={<LoginPage />}
 				/>
 				<Route
-					path='/'
+					path='/signup'
 					element={<SignupPage />}
 				/>
 				<Route

@@ -1,0 +1,90 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+	padding: 0;
+	list-style: none;
+}
+
+/* Set core root defaults */
+html {
+	scroll-behavior: smooth;
+	line-height: 1.5;
+	text-size-adjust: 100%;
+}
+
+/* Remove text indentation from list items */
+ul[class],
+ol[class] {
+	list-style: none;
+	padding: 0;
+}
+
+/* Remove vertical spacing from form controls */
+button,
+input,
+select,
+textarea {
+	font: inherit;
+	margin: 0;
+}
+
+/* Reset button styling */
+button {
+	overflow: visible;
+	border: none;
+}
+
+/* Normalize button, input, select, textarea focus styles */
+button,
+select {
+	text-transform: none;
+}
+
+/* Remove focus styles from outline */
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: none;
+}
+
+/* Reset text-decoration and color for links */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Remove blue highlight on iOS and Android */
+a,
+button {
+	-webkit-tap-highlight-color: transparent;
+}
+
+/* Remove default styles */
+body {
+	font-family: sans-serif;
+	line-height: 1.5;
+	font-size: 1rem;
+	margin: 0;
+}
