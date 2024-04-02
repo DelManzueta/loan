@@ -1,0 +1,23 @@
+.button {
+	background-color: var(--color-primary);
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: var(--border-radius);
+	cursor: pointer;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none; /* If you use <a> tags for buttons */
+	display: inline-block; /* To allow use of padding and center text */
+	margin: 4px 2px;
+	transition: background-color 0.3s ease;
+}
+
+.button:hover {
+	background-color: #265df2; /* A slightly darker blue on hover */
+}
+
+.button:disabled {
+	background-color: #a7b8f9; /* A lighter blue for disabled state */
+	cursor: default;
+}

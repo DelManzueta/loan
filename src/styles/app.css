@@ -1,3 +1,4 @@
 @import './reset.css';
 @import './root.css';
-@import '../components//styles/modules.css';
+@import '../components/styles/modules.css';
+@import '../components/styles/buttons.css';

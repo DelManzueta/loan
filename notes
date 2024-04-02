@@ -1,0 +1,55 @@
+#dedede
+#ebebeb
+#f4f4f4
+#bcccd6
+#93b3c7
+#549bc7
+#2790ba
+#1082c9
+#0075a2
+#f5bb98  
+#edb230
+#e08043
+#ba1200
+#a39595
+#1c110a
+#031927
+
+
+/* Base Colors */
+--color-base-gray-100: #f4f4f4; /* Almost white gray, for backgrounds */
+--color-base-gray-200: #ebebeb; /* Slightly lighter gray, for backgrounds */
+--color-base-gray-300: #dedede; /* Light gray, for disabled elements */
+--color-base-gray-400: #a39595; /* Muted lavender-gray, for non-essential elements */
+
+/* Primary Colors */
+--color-primary-blue-100: #bcccd6; /* Light blue-gray, for large backgrounds */
+--color-primary-blue-200: #93b3c7; /* Muted blue, for interactive elements */
+--color-primary-blue-300: #549bc7; /* Medium blue, for buttons */
+--color-primary-blue-400: #2790ba; /* Bright cyan-blue, for links and highlights */
+--color-primary-blue-500: #1082c9; /* Strong blue, for active elements */
+--color-primary-blue-600: #0075a2; /* Deep teal, for emphasis */
+
+/* Dark Theme Colors */
+--color-dark-blue-700: #031927; /* Very dark blue, for dark mode backgrounds */
+
+/* Accent Colors */
+--color-accent-peach-200: #f8cbb1; /* Lighter peach, for highlights */
+--color-accent-peach-400: #f5bb98; /* Soft peach, for callouts */
+--color-accent-peach-600: #f2ab7f; /* Darker peach, for active states */
+
+/* Accent Colors - Orange */
+--color-accent-orange-200: #e6956d; /* Lighter orange, for warnings */
+--color-accent-orange-400: #e08043; /* Warm orange, for important callouts */
+--color-accent-orange-600: #db6b19; /* Darker orange, for urgent warnings */
+
+/* Utility Colors */
+--color-utility-brown-700: #1c110a; /* Dark brown, for text or critical icons */
+
+/* Alert Colors */
+--color-alert-gold-300: #edb230; /* Vibrant gold, for attention-needed elements */
+--color-alert-red-500: #ba1200; /* Rich red, for errors and alerts */
+
+
+
+

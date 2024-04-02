@@ -1,8 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-	--ff-serif: 'Rokkitt', serif;
+	/* Base Colors */
+	--color-base-gray-100: #f4f4f4;
+	--color-base-gray-200: #ebebeb;
+	--color-base-gray-300: #dedede;
+	--color-base-gray-400: #a39595;
+
+	/* Primary Colors */
+	--color-primary-blue-100: #bcccd6;
+	--color-primary-blue-200: #93b3c7;
+	--color-primary-blue-300: #549bc7;
+	--color-primary-blue-400: #2790ba;
+	--color-primary-blue-500: #1082c9;
+	--color-primary-blue-600: #0075a2;
+
+	/* Dark Theme Colors */
+	--color-dark-blue-700: #031927;
+
+	/* Accent Colors */
+	--color-accent-peach-200: #f8cbb1;
+	--color-accent-peach-400: #f5bb98;
+	--color-accent-peach-600: #f2ab7f;
+
+	/* Accent Colors - Orange */
+	--color-accent-orange-200: #e6956d;
+	--color-accent-orange-400: #e08043;
+	--color-accent-orange-600: #db6b19;
+
+	/* Utility Colors */
+	--color-utility-brown-700: #1c110a;
+
+	/* Alert Colors */
+	--color-alert-gold-300: #edb230;
+	--color-alert-red-500: #ba1200;
+
+	/* Typography */
+	--ff-heading: 'Rokkitt', serif;
+	--ff-body: 'Mulish', sans-serif;
+
+	/* Spacing and borders */
+	--border-radius: 12px;
+	--box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 body {
-	font-family: var(--ff-serif);
+	background: var(--color-base-gray-100);
+	color: var(--color-utility-brown-700);
+	font-family: var(--ff-body);
+	margin: 0;
+	padding: 0;
 }
